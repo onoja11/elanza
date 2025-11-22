@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { ShoppingCart, Search, Menu, X } from "lucide-react";
+import logo from  "../assets/Document_from_elanza-removebg-preview.png";
 
 const NavBar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -10,11 +11,16 @@ const NavBar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <img
+            <a href="/">
+
+               <img
               alt="Elanza Logo"
-              className="h-10 w-auto"
-              src="https://static.readdy.ai/image/06f0d95184828a864e32f4bae95fe0d7/db3470626049ad7ee77fcef975cc2b2a.png"
+              className="h-15 w-auto"
+              src={logo}
             />
+            
+            </a>
+           
           </div>
 
           {/* Nav Links (Desktop) */}
