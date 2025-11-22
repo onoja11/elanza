@@ -50,13 +50,13 @@ const Hero = () => {
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center min-h-screen">
             <div className="max-w-2xl text-left">
               <h1 className="text-5xl md:text-6xl font-playfair font-bold text-[#F8F5EF] mb-6 leading-tight">
-                Africa's Premier
-                <span className="text-[#B89B5E]"> Fashion Marketplace</span>
+                The Abundance of 
+                <br className="md:block hidden"></br>
+                <span className="text-[#B89B5E]"> Style and Culture</span>
               </h1>
 
-              <p className="text-xl text-[#F8F5EF]/90 mb-8 leading-relaxed font-inter">
-                Discover luxury fashion, connect with top designers, book
-                professional services, and access premium fabrics.
+              <p className="text-xl text-[#F8F5EF]/90 mb-8 leading-relaxed font-inter ">
+                Confidence, Creativity and Forward Motion: The Essence of Fashion and Innovation
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
