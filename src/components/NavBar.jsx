@@ -23,9 +23,9 @@ const NavBar = () => {
             <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#">Marketplace</a>
             <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#">Collection</a>
             <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#">Services</a>
-            <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#"></a>
+            {/* <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#"></a> */}
             <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#">Community</a>
-            <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#"></a>
+            {/* <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#"></a> */}
           </div>
 
           {/* Right Side (Desktop) */}
