@@ -19,10 +19,11 @@ const NavBar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#">Fashion Brands</a>
             <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#">Marketplace</a>
+            <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#">Collections</a>
             <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#">Services</a>
-            <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#">Fabrics</a>
+            {/* <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#">Fabrics</a> */}
             <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#">Community</a>
-            <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#">About</a>
+            {/* <a className="text-[#2E2B26] hover:text-[#B89B5E] font-medium transition-colors" href="#">About</a> */}
           </div>
 
           {/* Right Side */}
@@ -55,6 +56,11 @@ const NavBar = () => {
           <button className="md:hidden text-[#2E2B26]">
             <Menu size={26} />
           </button>
+
+          <div className="">
+
+          </div>
+          
         </div>
       </div>
     </nav>
