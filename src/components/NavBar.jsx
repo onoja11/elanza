@@ -17,6 +17,7 @@ const NavBar = () => {
               alt="Elanza Logo"
               className="h-15 w-auto"
               src={logo}
+              onContextMenu={(e) => e.preventDefault()}
             />
             
             </a>
