@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import img from "../assets/photo-1571513800374-df1bbe650e56.avif";
-import img2 from "../assets/photo-1515886657613-9f3515b0c78f.avif";
-import img3 from "../assets/photo-1520473378652-85d9c4aee6cf.avif";
+import img from "../assets/Document from carousel 1.jpg";
+import img2 from "../assets/Document from carousel 2.png";
+import img3 from "../assets/Document from elanza carousel3.png";
 import {
   ShoppingBag,
   ArrowRight,
