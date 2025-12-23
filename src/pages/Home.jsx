@@ -8,6 +8,7 @@ import SuppliersPreview from '../components/SuppliersPreview.jsx'
 import CultureHubPreview from '../components/CultureHubPreview.jsx'
 import CommunityPreview from '../components/CommunityPreview.jsx'
 import FinalCTA from '../components/FinalCTA.jsx'
+import FeaturedProducts from '../components/FeaturedProducts.jsx'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <CoreFeatures />
       <FeaturedCreators />
       <CuratedCollections/>
+      <FeaturedProducts/> 
       <ServicesOverview/>
       <SuppliersPreview/>
       <CultureHubPreview/>
